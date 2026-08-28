@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paired-state-protein-ddg"
+version = "0.1.0"
+description = "Local-geometry vector quantization and paired-state protein DDG prediction"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.23",
+  "PyYAML>=6.0",
+  "torch>=2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["ppi_ddg*"]

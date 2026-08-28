@@ -1,0 +1,12 @@
+name: intergeo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.0.1
+  - pytorch-cuda=11.8
+  - numpy=1.26.4
+  - pyyaml=6.0.3
+  - pip
