@@ -24,9 +24,6 @@ python -m pip install -e .
   binding-affinity data used to prepare pretraining inputs. Registration and
   licensing conditions are defined by the data provider.
 
-Datasets, processed graph caches, YAML configurations, pretrained checkpoints,
-and experiment outputs are not distributed in this repository.
-
 ## Usage
 
 Pretraining requires a user-supplied YAML configuration:
